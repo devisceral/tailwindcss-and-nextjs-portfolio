@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from "next/image"
+import React from "react";
+import Image from "next/image";
 
 const skills = [
   { skill: "HTML" },
@@ -16,7 +16,7 @@ const skills = [
   { skill: "Wordpress" },
   { skill: "Git" },
   { skill: "GitHub" },
-]
+];
 
 const AboutSection = () => {
   return (
@@ -33,23 +33,31 @@ const AboutSection = () => {
               Um pouco sobre mim
             </h1>
             <p>
-            Olá, meu nome é André Mendes e sou um Desenvolvedor Full Stack altamente ambicioso e motivado, atualmente moro em Belém do Pará.
+              Olá, meu nome é André Mendes e sou um Desenvolvedor Full Stack
+              altamente ambicioso e motivado, atualmente moro em Belém do Pará.
             </p>
             <br />
             <p>
-            Eu me formei na Universidade UNIP em Tecnologia da Informação e atualmente estou cursando Análise Desenvolvimento de Sistemas na Universidade Estácio. Trabalho com projetos freelancer no desenvolvimento de aplicações Web Full-stack.
+              Eu me formei na Universidade UNIP em Tecnologia da Informação e
+              atualmente estou cursando Análise Desenvolvimento de Sistemas na
+              Universidade Estácio. Atualmente Trabalho com projetos freelancer, no
+              desenvolvimento de aplicações Web Full-stack.
             </p>
             <br />
             <p>
-            Tenho uma ampla gama de hobbies e paixões. Desde ler, praticar esportes, viajar, jogar videogame, entre outros. Estou sempre em busca de novas experiências e aprendendo coisas novas.
+              Tenho uma ampla gama de hobbies e paixões. Desde ler, praticar
+              esportes, viajar, jogar videogame, entre outros. Estou sempre em
+              busca de novas experiências e aprendendo coisas novas.
             </p>
             <br />
             <p>
-            Acredito que{" "}
+              Acredito que{" "}
               <span className="font-bold text-teal-500">
-              nunca se deve parar de crescer
+                nunca se deve parar de crescer
               </span>{" "}
-               e é isso que me esforço para fazer, tenho paixão por tecnologia e vontade de sempre ultrapassar os limites do que é possível. Estou animado para ver onde minha carreira me levará. 🙂
+              e é isso que me esforço para fazer, tenho paixão por tecnologia e
+              vontade de sempre ultrapassar os limites do que é possível. Estou
+              animado para ver onde minha carreira me levará. 🙂
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -63,14 +71,14 @@ const AboutSection = () => {
                   >
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;
