@@ -5,6 +5,10 @@ import { Link } from "react-scroll/modules"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
+import {
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+} from "react-icons/ai"
 
 interface NavItem {
   label: string;
@@ -59,6 +63,24 @@ const Navbar = () => {
             }`}
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <div className="flex flex-row items-center justify-center space-x-2 mb-1">
+          <a href="https://github.com/devisceral" rel="noreferrer" target="_blank">
+            <AiOutlineGithub
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/develmendes/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineLinkedin
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+        </div>
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link

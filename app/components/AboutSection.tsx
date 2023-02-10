@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const skills = [
   { skill: "HTML" },
@@ -11,8 +10,9 @@ const skills = [
   { skill: "React Native" },
   { skill: "Next.js" },
   { skill: "Java" },
-  { skill: "Sql" },
-  { skill: "NoSql" },
+  { skill: "MySql" },
+  { skill: "MongoDB" },
+  { skill: "Firebase" },
   { skill: "Wordpress" },
   { skill: "Git" },
   { skill: "GitHub" },
@@ -33,15 +33,16 @@ const AboutSection = () => {
               Um pouco sobre mim
             </h1>
             <p>
-              Olá, meu nome é André Mendes e sou um Desenvolvedor Full Stack
-              altamente ambicioso e motivado, atualmente moro em Belém do Pará.
+              Meu nome é André Mendes tenho <span>32 anos,</span> sou um
+              Desenvolvedor Full Stack altamente ambicioso e motivado,
+              atualmente moro em Belém do Pará.
             </p>
             <br />
             <p>
               Eu me formei na Universidade UNIP em Tecnologia da Informação e
               atualmente estou cursando Análise Desenvolvimento de Sistemas na
-              Universidade Estácio. Atualmente Trabalho com projetos freelancer, no
-              desenvolvimento de aplicações Web Full-stack.
+              Universidade Estácio. Atualmente Trabalho com projetos freelancer,
+              no desenvolvimento de aplicações Web Full-stack.
             </p>
             <br />
             <p>

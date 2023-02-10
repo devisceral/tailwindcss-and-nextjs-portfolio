@@ -27,7 +27,7 @@ const HeroSection = () => {
               tecnologias web, entregando trabalhos de qualidade
             </p>
             <Link
-              to="projects"
+              to="about"
               className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
               activeClass="active"
               spy={true}
@@ -48,7 +48,7 @@ const HeroSection = () => {
             offset={-100}
             duration={500}
           >
-            <HiArrowDown size={35} className="animate-bounce" />
+            <HiArrowDown size={35} className="animate-bounce cursor-pointer" />
           </Link>
         </div>
       </section>
