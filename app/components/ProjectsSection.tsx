@@ -20,6 +20,13 @@ const projects = [
     github: "https://github.com/devisceral/weather-app-nextjs",
     link: "https://weather-app-nextjs-liard.vercel.app/",
   },
+  {
+    name: "Food Landing Page",
+    description: "Simples Landing page em html, css, javascript, design responsivo",
+    image: "https://github.com/devisceral/landingpage-html-css-js-responsive/blob/main/public/website.png?raw=true",
+    github: "https://github.com/devisceral/landingpage-html-css-js-responsive",
+    link: "https://devisceral.github.io/landingpage-html-css-js-responsive/",
+  },
 ]
 
 const ProjectsSection = () => {
@@ -37,10 +44,10 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className="md:w-1/2">
-                    <Link href={project.link}>
+                    <Link href={project.link} target="_blank">
                       <Image
                         src={project.image}
-                        alt=""
+                        alt="project image"
                         width={1000}
                         height={1000}
                         className="rounded-xl shadow-xl hover:opacity-70"
