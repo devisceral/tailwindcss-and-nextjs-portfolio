@@ -8,14 +8,14 @@ const projects = [
   {
     name: "Chat GPT Clone",
     description: "Consumindo a api do chat GPT utilizando Nextjs",
-    image: "/chatgptclone.png",
+    image: "https://github.com/devisceral/chatgpt-clone-nextjs/blob/main/public/chatgptclone.png?raw=true",
     github: "https://github.com/devisceral/chatgpt-clone-nextjs",
     link: "https://chatgpt-clone-nextjs-cssvo9epo-devisceral.vercel.app/",
   },
   {
     name: "Weather App",
     description: "Projeto Nextjs utilizando a api do openweathermap",
-    image: "/weatherapp.png",
+    image: "https://github.com/devisceral/weather-app-nextjs/blob/main/public/weatherapp.png?raw=true",
     github: "https://github.com/devisceral/weather-app-nextjs",
     link: "https://weather-app-nextjs-liard.vercel.app/",
   },
