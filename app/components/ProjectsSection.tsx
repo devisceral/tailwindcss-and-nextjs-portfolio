@@ -1,14 +1,13 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
     name: "Chat GPT Clone",
-    description:
-      "Consumindo a api do chat GPT utilizando Nextjs",
+    description: "Consumindo a api do chat GPT utilizando Nextjs",
     image: "/chatgptclone.png",
     github: "https://github.com/devisceral/chatgpt-clone-nextjs",
     link: "https://chatgpt-clone-nextjs-cssvo9epo-devisceral.vercel.app/",
@@ -22,12 +21,23 @@ const projects = [
   },
   {
     name: "Food Landing Page",
-    description: "Simples Landing page em html, css, javascript, design responsivo",
-    image: "https://github.com/devisceral/landingpage-html-css-js-responsive/blob/main/public/website.png?raw=true",
+    description:
+      "Simples Landing page em html, css, javascript, design responsivo",
+    image:
+      "https://github.com/devisceral/landingpage-html-css-js-responsive/blob/main/public/website.png?raw=true",
     github: "https://github.com/devisceral/landingpage-html-css-js-responsive",
     link: "https://devisceral.github.io/landingpage-html-css-js-responsive/",
   },
-]
+  {
+    name: "Todo List",
+    description:
+      "Todolist em html, css e javascript, armazenamento no local storage",
+    image:
+      "https://github.com/devisceral/todolist-localstorage/blob/main/public/todolist.png?raw=true",
+    github: "https://github.com/devisceral/todolist-localstorage",
+    link: "https://devisceral.github.io/todolist-localstorage",
+  },
+];
 
 const ProjectsSection = () => {
   return (
@@ -78,12 +88,11 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;
